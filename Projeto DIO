@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title> Meu projeto DIO</title>
+
+
+<body>
+  
+  <h1 id="inicio"> Projeto DIO -  Primeiros Passos HTML </h1>
+  <hr/>
+  <ol>
+    <li><a href="#oquee">O que é HTML</a></li>
+    <li><a href="#estrutura">Estrutura Básica</a></li>
+    <li><a href="#outrosconceitos">Outros Conceitos</a></li>
+        
+  </ol>
+  <div>
+    <h2 id="oquee"> O que é HTML </h2>
+    <small><a href="#inicio"> voltar</a></small>
+<p>A sigla <q>HTML</q> significa Hyper Text Marckup Language, pode ser traduzida como Linguagem de Marcação de HiperTexto, que serve como estrutura para criação de sites. </p> 
+
+<p> Conforme dito anteriormente o HTML serve para estruturar os sites, sendo que essa estrutura dar-se-á pelo uso de tags. Que são justamente “marcações” que delimitam o conteúdo e servem de referência para estilização (CSS) e interações (JavaScript). </p> 
+
+<p> Essas tags em regra geral são definidas pela utilização de termos em inglês entre os símbolos matemático de menor &#60; e maior &#62;, e como regra geral tendo uma tag de nome igual, correspondente ao fechamento da mesma, porém essa última com uma barra <q>/</q> antes do termo em inglês, mas também acompanhada dos símbolos de menor &#60; e maior &#62;. </p> 
+  
+  <p> Ex: &#60;tag&#62; Esse é um exemplo de uma tag com abertura e fechamento &#60;/tag&#62; </p>
+  
+  </div>
+  
+   <div>
+  
+  <h2 id="estrutura"> Estrutura Básica </h2>
+  <small id="voltar"><a href="#inicio"> voltar</a></small>
+  
+<p> Atualmente, a versão do HTML utilizada em todo o mundo é a versão 5, que para ser definida na criação de um arquivo HTML, deve ser mencionado os termos <q>&#60;!DOCTYPE HTML&#62;, </q> na primeira linha do arquivo. </p>
+
+<p> Depois da tag mencionada, onde definimos a versão do HTML, abaixo, devemos mencionar a tag &#60;html&#62; &#60;/html&#62;, entre essas tags será desenvolvido todo o conteúdo do site. </p>
+
+<p> Uma das tags é a tag &#60;body&#62; &#60;/body&#62;, que trará todo o conteúdo do site, ficando mais ou menos da forma abaixo:</p>
+    
+   <p> &#60;!DOCTYPE HTML&#62;</p>
+   <p> &#60;html&#62;</p>
+   
+    <p>&#60;body&#62;</p>
+   
+   <p> &#60;/body&#62;</p>
+   
+   <p>&#60;/html&#62;</p>
+  
+  </div>
+  <div>
+  <h2 id="outrosconceitos"> Outros Conceitos  </h2>
+  <small><a href="#inicio"> voltar</a></small>
+  
+    <blockquote><p> Além de tags estruturais, o <abbr title= "Hyper Text Markup Language">HTML</abbr> conta com inúmeras tags, que podem mudar a forma do texto &#60; i &#62; , por exemplo deixa o texto <i>em itálico</i>, &#60; b&#62; <b>em negrito</b>, &#60; q &#62; <q>uma citação</q>. Existem outras tags utilizadas como referência para posterior estilização, &#60; span &#62; <span>que não altera em nada</span>, porém com valor semântico.</p></blockquote>
+    
+  <p>
+  <mark>Maiores informaçẽos sobre <sup>tags</sup> e sua utilidade podem ser encontradas nas referências <sub>abaixo:</sub></mark>
+    </p>
+    <ul>
+        <li> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML: Linguagem de Marcação de Hipertexto</a></li>
+        
+    </ul>
+    
+  
+  </div>
+
+
+</body>
+
+
+
+
+
+</html>
